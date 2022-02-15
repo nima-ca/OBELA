@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/components/_button.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
