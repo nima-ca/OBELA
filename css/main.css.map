@@ -1,9 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AEAA,AAAA,OAAO,CAAC;EACN,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,2FAIf,EACD,uCAAuC;EACzC,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK;CACvB",
     "sources": [
         "../scss/main.scss",
-        "../scss/components/_button.scss"
+        "../scss/components/_button.scss",
+        "../scss/layout/_header.scss"
     ],
     "names": [],
     "file": "main.css"
