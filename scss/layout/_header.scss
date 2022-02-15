@@ -1,11 +1,15 @@
-#header {
-  height: 90vh;
+.header {
+  height: 95vh;
   background-image: linear-gradient(
       180deg,
-      rgba(110, 71, 234, 0.7010154403558299) 0%,
-      rgba(119, 53, 243, 0.7094188017003676) 100%
+      rgba(110, 71, 234, 0.9) 0%,
+      rgba(119, 53, 243, 0.9) 100%
     ),
     url(../../images/header-background.png);
   background-position: center;
   background-size: cover;
+
+  &__content {
+    @include position-center;
+  }
 }
