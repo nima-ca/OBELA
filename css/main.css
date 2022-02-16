@@ -61,11 +61,6 @@
   margin-bottom: 1rem;
 }
 
-.iconify {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
 .header {
   height: 95vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(110, 71, 234, 0.9)), to(rgba(119, 53, 243, 0.9))), url(../../images/header-background.png);
