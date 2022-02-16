@@ -1,13 +1,15 @@
-.btn {
+.btn:link, .btn:visited {
   padding: 0.9rem 1.5rem;
   border-radius: 10rem;
-  background-color: white;
+  background-color: #eee;
   color: #7f56fd;
 }
 
-.btn:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+.btn--purple {
+  padding: 0.9rem 2.5rem;
+  border-radius: 10rem;
+  background-color: #7f56fd;
+  color: #eee;
 }
 
 .line {
@@ -22,21 +24,34 @@
   margin-bottom: 2.5rem;
 }
 
+.line--white {
+  background-color: #eee;
+}
+
 .heading {
   text-align: center;
-  color: #323232;
+  color: gray;
   max-width: 600px;
   margin: 0 auto;
+}
+
+.heading--white {
+  color: #eee;
 }
 
 .heading p {
   font-size: 0.9rem;
 }
 
-.heading h3 {
+.heading__header {
+  color: #334155;
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.heading__header--white {
+  color: #eee;
 }
 
 .header {
@@ -53,5 +68,10 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.skill {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(127, 86, 253, 0.9))), url(../../images/skill-background.png);
+  background-image: linear-gradient(rgba(127, 86, 253, 0.9)), url(../../images/skill-background.png);
 }
 /*# sourceMappingURL=main.css.map */

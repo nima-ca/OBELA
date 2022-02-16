@@ -4,13 +4,22 @@
   max-width: 600px;
   margin: 0 auto;
 
+  &--white {
+    color: $color-white;
+  }
+
   p {
     font-size: 0.9rem;
   }
 
-  h3 {
+  &__header {
+    color: $color-slate;
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
+
+    &--white {
+      color: $color-white;
+    }
   }
 }

@@ -1,10 +1,16 @@
 .btn {
-  padding: 0.9rem 1.5rem;
-  border-radius: 10rem;
-  background-color: $color-white;
-  color: $color-primary;
+  &:link,
+  &:visited {
+    padding: 0.9rem 1.5rem;
+    border-radius: 10rem;
+    background-color: $color-white;
+    color: $color-primary;
+  }
 
-  &:hover {
-    transform: scale(1.5);
+  &--purple {
+    padding: 0.9rem 2.5rem;
+    border-radius: 10rem;
+    background-color: $color-primary;
+    color: $color-white;
   }
 }
