@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
   </head>
   <body class="px-12 py-4 font-Roboto text-slate-100">
     <header id="header" class="px-20 py-8 header">
@@ -45,10 +46,9 @@
     </header>
     <main>
       <div id="about" class="mx-auto mb-20 about">
-        <div class="mt-20 mb-14 heading heading__header">
-          <h3>About me</h3>
-          <div><span class="line"></span></div>
-          <div><span class="line line--small"></span></div>
+        <div class="mt-20 mb-14 heading">
+          <h3 class="mb-1 titles">About me</h3>
+          <img src="../images/title-style.png" alt="" class="mx-auto mb-10" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
             omnis quia, officiis pariatur autem est. Beatae omnis quia, officiis
@@ -88,18 +88,35 @@
           </div>
         </div>
       </div>
-      <div id="skill" class="skill">
-        <div
-          class="mt-20 mb-14 heading heading--white heading__header heading__header--white"
-        >
-          <h3>About me</h3>
-          <div><span class="line line--white"></span></div>
-          <div><span class="line line--small line--white"></span></div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            omnis quia, officiis pariatur autem est. Beatae omnis quia, officiis
-            pariatur autem est.
-          </p>
+      <div id="skill" class="p-24 skill">
+        <div>
+          <div class="heading heading--white">
+            <h3 class="mb-1 titles titles--white">My Skills</h3>
+            <img
+              src="../images/title-style-white.png"
+              alt=""
+              class="mx-auto mb-10"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              omnis quia, officiis pariatur autem est. Beatae omnis quia,
+              officiis pariatur autem estar.
+            </p>
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-10 mt-10">
+          <div class="flex flex-col items-center justify-center skill__card">
+            <span class="iconify" data-icon="file-icons:adobe-photoshop"></span>
+            <h4>Adobe Photoshop</h4>
+          </div>
+          <div class="flex flex-col items-center justify-center skill__card">
+            <span class="iconify" data-icon="file-icons:adobe-photoshop"></span>
+            <h4>Adobe Photoshop</h4>
+          </div>
+          <div class="flex flex-col items-center justify-center skill__card">
+            <span class="iconify" data-icon="file-icons:adobe-photoshop"></span>
+            <h4>Adobe Photoshop</h4>
+          </div>
         </div>
       </div>
     </main>

@@ -11,15 +11,15 @@
   p {
     font-size: 0.9rem;
   }
+}
 
-  &__header {
-    color: $color-slate;
-    font-size: 2rem;
-    font-weight: 700;
-    text-transform: uppercase;
+.titles {
+  color: $color-slate;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
 
-    &--white {
-      color: $color-white;
-    }
+  &--white {
+    color: $color-white;
   }
 }

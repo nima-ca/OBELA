@@ -43,15 +43,32 @@
   font-size: 0.9rem;
 }
 
-.heading__header {
+.titles {
   color: #334155;
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.heading__header--white {
+.titles--white {
   color: #eee;
+}
+
+.skill__card {
+  height: 10rem;
+  background-color: #eee;
+  border-radius: 1rem;
+  color: #334155;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 1rem 2rem rgba(3, 3, 3, 0.3);
+          box-shadow: 0 1rem 2rem rgba(3, 3, 3, 0.3);
+}
+
+.iconify {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .header {
@@ -73,5 +90,7 @@
 .skill {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(127, 86, 253, 0.9))), url(../../images/skill-background.png);
   background-image: linear-gradient(rgba(127, 86, 253, 0.9)), url(../../images/skill-background.png);
+  background-position: center;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */
