@@ -10,6 +10,35 @@
           transform: scale(1.5);
 }
 
+.line {
+  height: 2px;
+  width: 5rem;
+  display: inline-block;
+  background-color: #7f56fd;
+}
+
+.line--small {
+  width: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.heading {
+  text-align: center;
+  color: #323232;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.heading p {
+  font-size: 0.9rem;
+}
+
+.heading h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .header {
   height: 95vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(110, 71, 234, 0.9)), to(rgba(119, 53, 243, 0.9))), url(../../images/header-background.png);

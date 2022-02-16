@@ -1,0 +1,16 @@
+.heading {
+  text-align: center;
+  color: $color-gray;
+  max-width: 600px;
+  margin: 0 auto;
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
