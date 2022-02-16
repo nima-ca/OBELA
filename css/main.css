@@ -89,10 +89,6 @@
   background-size: cover;
 }
 
-.icon--big {
-  font-size: 4rem;
-}
-
 .info {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(127, 86, 253, 0.9))), url(../../images/overview-background.png);
   background-image: linear-gradient(rgba(127, 86, 253, 0.9)), url(../../images/overview-background.png);
@@ -101,8 +97,8 @@
 }
 
 .testimonial {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(127, 86, 253, 0.9))), url(../../images/overview-background.png);
-  background-image: linear-gradient(rgba(127, 86, 253, 0.9)), url(../../images/overview-background.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(127, 86, 253, 0.9))), url(../../images/slider-background.png);
+  background-image: linear-gradient(rgba(127, 86, 253, 0.9)), url(../../images/slider-background.png);
   background-position: center;
   background-size: cover;
 }
