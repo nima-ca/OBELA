@@ -1,7 +1,7 @@
 .btn:link, .btn:visited {
   padding: 0.9rem 1.5rem;
   border-radius: 10rem;
-  background-color: #eee;
+  background-color: #fafafa;
   color: #7f56fd;
 }
 
@@ -9,23 +9,7 @@
   padding: 0.9rem 2.5rem;
   border-radius: 10rem;
   background-color: #7f56fd;
-  color: #eee;
-}
-
-.line {
-  height: 2px;
-  width: 5rem;
-  display: inline-block;
-  background-color: #7f56fd;
-}
-
-.line--small {
-  width: 3rem;
-  margin-bottom: 2.5rem;
-}
-
-.line--white {
-  background-color: #eee;
+  color: #fafafa;
 }
 
 .heading {
@@ -36,7 +20,7 @@
 }
 
 .heading--white {
-  color: #eee;
+  color: #fafafa;
 }
 
 .heading p {
@@ -51,19 +35,30 @@
 }
 
 .titles--white {
-  color: #eee;
+  color: #fafafa;
 }
 
-.skill__card {
-  height: 10rem;
-  background-color: #eee;
+.card {
+  height: minmax(10rem, 40rem);
+  background-color: #fafafa;
   border-radius: 1rem;
-  color: #334155;
   font-size: 1rem;
+  -webkit-box-shadow: 0 1rem 2rem rgba(3, 3, 3, 0.15);
+          box-shadow: 0 1rem 2rem rgba(3, 3, 3, 0.15);
+  text-align: center;
+  color: #334155;
+  padding: 1.5rem;
+}
+
+.card h4 {
   font-weight: 700;
   text-transform: uppercase;
-  -webkit-box-shadow: 0 1rem 2rem rgba(3, 3, 3, 0.3);
-          box-shadow: 0 1rem 2rem rgba(3, 3, 3, 0.3);
+}
+
+.card p {
+  color: gray;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
 }
 
 .iconify {
@@ -90,6 +85,17 @@
 .skill {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(127, 86, 253, 0.9))), url(../../images/skill-background.png);
   background-image: linear-gradient(rgba(127, 86, 253, 0.9)), url(../../images/skill-background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.icon--big {
+  font-size: 4rem;
+}
+
+.info {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(127, 86, 253, 0.9))), url(../../images/overview-background.png);
+  background-image: linear-gradient(rgba(127, 86, 253, 0.9)), url(../../images/overview-background.png);
   background-position: center;
   background-size: cover;
 }

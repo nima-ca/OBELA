@@ -1,12 +1,23 @@
-.skill__card {
-  height: 10rem;
+.card {
+  height: minmax(10rem, 40rem);
   background-color: $color-white;
   border-radius: 1rem;
-  color: $color-slate;
   font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  box-shadow: 0 1rem 2rem rgba($color-black, 0.3);
+  box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+  text-align: center;
+  color: $color-slate;
+  padding: 1.5rem;
+
+  h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: $color-gray;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
 }
 
 .iconify {
