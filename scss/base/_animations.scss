@@ -1,0 +1,31 @@
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: $color-white;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $color-white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  &:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}
+
+.hover-up-animation {
+  transition: all 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
