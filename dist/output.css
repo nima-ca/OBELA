@@ -600,6 +600,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -680,6 +688,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#27353b\] {
   --tw-bg-opacity: 1;
   background-color: rgb(39 53 59 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#7fb7fa\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(127 183 250 / var(--tw-bg-opacity));
 }
 
 .p-24 {

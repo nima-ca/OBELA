@@ -65,6 +65,38 @@
   margin-bottom: 1rem;
 }
 
+.proccess {
+  display: inline-block;
+  background-color: #cccccc;
+  height: 10px;
+  width: 100%;
+  position: relative;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.progress {
+  display: inline-block;
+  height: 10px;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2rem;
+}
+
+.progress--blue {
+  background-color: #7fb7fa;
+}
+
+.progress--orange {
+  background-color: #ffac1b;
+}
+
+.progress--purple {
+  background-color: #c99aff;
+}
+
 .header {
   height: 95vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(110, 71, 234, 0.9)), to(rgba(119, 53, 243, 0.9))), url(../../images/header-background.png);
