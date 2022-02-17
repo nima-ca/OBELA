@@ -1,13 +1,13 @@
 .btn {
-  &:link,
-  &:visited {
-    padding: 0.9rem 1.5rem;
-    border-radius: 10rem;
-    background-color: $color-white;
-    color: $color-primary;
-  }
+  display: inline-block;
+  padding: 0.9rem 1.5rem;
+  border-radius: 10rem;
+  background-color: $color-white;
+  color: $color-primary;
+  transition: all 0.3s;
 
   &--purple {
+    display: inline-block;
     padding: 0.9rem 2.5rem;
     border-radius: 10rem;
     background-color: $color-primary;
