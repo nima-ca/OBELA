@@ -177,6 +177,8 @@
 }
 
 .hover-up-animation:hover {
+  -webkit-box-shadow: 0 1rem 2rem rgba(3, 3, 3, 0.15);
+          box-shadow: 0 1rem 2rem rgba(3, 3, 3, 0.15);
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
 }
